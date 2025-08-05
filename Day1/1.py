@@ -64,4 +64,3 @@ print(list1[0:5])
 print(list1[0:5:2])
 # print(list1[0:5:3])
 print(list1) 
-

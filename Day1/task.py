@@ -1,6 +1,5 @@
 import time
 
-
 start = time.time()
 print("Start time:", time.ctime(start))
 
