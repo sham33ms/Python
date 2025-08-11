@@ -15,3 +15,5 @@ def post_message(name, message):
     print(f"{name} posted: {message}")
 
 login_user(user1_name) # Alice has logged in.
+post_message(user2_name, "My first post.")
+
