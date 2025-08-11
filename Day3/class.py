@@ -17,3 +17,35 @@ def post_message(name, message):
 login_user(user1_name) # Alice has logged in.
 post_message(user2_name, "My first post.")
 
+
+
+
+class MainClass1:
+    def _init_(self,name,age):
+        self.name=name
+        self.age=age
+obj=MainClass1("John",30)
+print("Name is:",obj.name)
+print("Age is:",obj.age)
+
+
+
+class MainClass2:
+    def _init_(self,city,country):
+        self.city=city
+        self.country=country
+    def display(self):
+        print(f"City:{self.city} and Country:{self.country}")
+obj2=MainClass2("New York","USA")
+obj2.display()
+
+
+
+class MainClass3():
+    def add(self,a,b):
+        return a+b
+    def sub(self,a,b):
+        return a-b
+obj3=MainClass3()
+print("Addition of 10 and 5 is:",obj3.add(10,5))
+print("Subtraction of 10 and 5 is:",obj3.sub(10,5))
